@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Stage Oracle Module" max_length="40" name="x_200470_prism_stage_oracle_module" type="collection">
+        <element attributes="import_attribute_name=INSTALLATION_TYPE_CD,edge_encryption_enabled=true" label="INSTALLATION_TYPE_CD" max_length="40" name="u_installation_type_cd" type="string"/>
+        <element attributes="import_attribute_name=MODULE_CD,edge_encryption_enabled=true" label="MODULE_CD" max_length="40" name="u_module_cd" type="string"/>
+        <element attributes="import_attribute_name=MODULE_NAME,edge_encryption_enabled=true" label="MODULE_NAME" max_length="54" name="u_module_name" type="string"/>
+        <element attributes="import_attribute_name=PATCH_LEVEL_TEXT,edge_encryption_enabled=true" label="PATCH_LEVEL_TEXT" max_length="40" name="u_patch_level_text" type="string"/>
+    </element>
+</database>

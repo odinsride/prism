@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Oracle Module" max_length="40" name="x_200470_prism_oracle_module" type="collection">
+        <element label="Module Code" max_length="10" name="module_code" type="string"/>
+        <element label="Module Description" max_length="250" name="module_description" type="string"/>
+    </element>
+</database>
