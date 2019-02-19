@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_200470_prism_issues">x_200470_prism_issues</category>
+        <maximum_digits>7</maximum_digits>
+        <number>2000</number>
+        <prefix>ISS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>kpc6c</sys_created_by>
+        <sys_created_on>2019-02-19 00:38:19</sys_created_on>
+        <sys_id>a834d450dbb72300ff9b9c66db9619a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ISS</sys_name>
+        <sys_package display_value="PRISM" source="x_200470_prism">5be0b6e7db21230074bd64d74896196e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PRISM">5be0b6e7db21230074bd64d74896196e</sys_scope>
+        <sys_update_name>sys_number_a834d450dbb72300ff9b9c66db9619a4</sys_update_name>
+        <sys_updated_by>kpc6c</sys_updated_by>
+        <sys_updated_on>2019-02-19 00:38:19</sys_updated_on>
+    </sys_number>
+</record_update>
