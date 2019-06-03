@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Stage Issue" max_length="40" name="x_200470_prism_stage_issue" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="ACTUAL_SAVINGS" max_length="40" name="u_actual_savings" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CONTACT" max_length="40" name="u_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="COST_SAVINGS_EXPLANATION" max_length="40" name="u_cost_savings_explanation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CREATED_BY" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CREATION_DATE" max_length="40" name="u_creation_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CUSTOMER_ID" max_length="40" name="u_customer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ESTIMATED_COST_SAVINGS" max_length="40" name="u_estimated_cost_savings" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ESTIMATED_EFFORT" max_length="40" name="u_estimated_effort" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISSUE_DESC" max_length="2000" name="u_issue_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISSUE_ID" max_length="40" name="u_issue_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISSUE_TITLE" max_length="255" name="u_issue_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISSUE_TYPE_ID" max_length="40" name="u_issue_type_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LAST_UPDATED_BY" max_length="40" name="u_last_updated_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="LAST_UPDATE_DATE" max_length="40" name="u_last_update_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="MODULE_CD" max_length="40" name="u_module_cd" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OWNER_TYPE_ID" max_length="40" name="u_owner_type_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OWNER_UNIV_COMPUTING_ID" max_length="40" name="u_owner_univ_computing_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PERCENT_COMPLETE" max_length="40" name="u_percent_complete" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PRIORITY_ID" max_length="40" name="u_priority_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PROJECT" max_length="40" name="u_project" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RESOLUTION" max_length="2000" name="u_resolution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RESOLUTION_DATE" max_length="40" name="u_resolution_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RESOLVED_BY" max_length="40" name="u_resolved_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="REVIEWER_ID" max_length="40" name="u_reviewer_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="RISK_LEVEL" max_length="40" name="u_risk_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SN_Issue_ID" max_length="40" name="u_sn_issue_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SOURCE_ID" max_length="40" name="u_source_id" type="string"/>
+    </element>
+</database>

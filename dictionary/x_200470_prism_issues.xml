@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Issues" max_length="40" name="x_200470_prism_issues" type="collection">
+        <element label="Closed" max_length="40" name="closed" type="glide_date"/>
+        <element label="Closed by" max_length="32" name="closed_by" reference="sys_user" type="reference"/>
+        <element label="Closing comments" max_length="1000" name="closing_comments" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Legacy issue ID" max_length="10" name="legacy_issue_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Oracle module" max_length="32" name="oracle_module" reference="x_200470_prism_oracle_module" type="reference"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Percentage complete" max_length="3" name="percentage_complete" type="string"/>
+        <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <element label="Short Description" max_length="255" name="short_description" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="oracle_module"/>
+        </index>
+        <index name="index3">
+            <element name="project"/>
+        </index>
+        <index name="index4">
+            <element name="legacy_issue_id"/>
+        </index>
+        <index name="index5">
+            <element name="closed_by"/>
+        </index>
+    </element>
+</database>
